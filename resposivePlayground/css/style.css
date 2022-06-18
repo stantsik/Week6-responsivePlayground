@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+
+.profile-image {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    background-image: url("../images/pexels-photo-4458420.webp");
+    background-size: cover;
+    background-position: center;
+    margin: 2rem auto;
+    border-radius: 50%;
+}
+
+.profile-text h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.profile-text ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    .container {
+        color: #fff;
+    }
+
+    .profile-image {
+        background-image: url("../images/pexels-photo-4458425.jpeg");
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+
+    .container {
+        width: 100%;
+        
+    }
+
+    .profile-image {
+        background-image: url("../images/pexels-photo-4458458.jpeg");
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer ul {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+
+    .footer ul li {
+        display: block;
+        margin: 2rem;
+    }
+}
